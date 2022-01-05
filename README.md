@@ -17,6 +17,7 @@ The application is composed of two main parts:
 * Download a file.
 * Persistent Tracking?
 * Only an owner of the file should be allowed to delete it.
+* Tracking corrupted files. - wala pa ako idea how ito. Baka check file if it contains non-ASCII characters.
 
 The system is able to track changes on the file. It is also capable of knowing whether a file has been tampered (unauthorized modification). 
 
