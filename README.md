@@ -1,16 +1,30 @@
 ## Introduction
 
-This is an example of simple CRUD DApp, a decentralized application running on Ethereum blockchain.
+This is a Decentralized Application for storing ```.txt files``` running on Ethereum blockchain.
 The application is composed of two main parts:
-- The backend, running on the blockchain with a smart contract (in Solidity);
-- The frontend, made in React and connected to the blockchain to allow CRUD operations.
+- The backend, running on the blockchain with a smart contract in __Solidity__;
+- The frontend, made in __React__ and connected to the blockchain.
+
+### Basic Functionalities
+
+* Upload - add new files to the blockchain. 
+* Read - retrieve every file information on the blockchain.
+* Update - update by replacing the file through re-uploading.
+* Delete - delete files.
+
+### Features to be added
+
+* Download a file.
+* Persistent Tracking?
+* Only an owner of the file should be allowed to delete it.
+
+The system is able to track changes on the file. It is also capable of knowing whether a file has been tampered (unauthorized modification). 
 
 You can clone the repository on your computer and run the project, but you'll need to have some tools installed on your computer.
 
 ## Requirements
 
-As mentioned above, you need to satisfy the requirements to run this application. 
-You need to have installed on your computer:
+You need to have the following installed:
 - [Node.js](https://nodejs.org/en/)
 - [npm](https://www.npmjs.com/)
 - [truffle](https://www.trufflesuite.com/) --> a Solidity framework, made in Node.js, that you can simply install with npm
@@ -19,9 +33,7 @@ You need to have installed on your computer:
 
 Otherwise, you can use [Remix](https://remix.ethereum.org/), an online Solidity IDE, to test smart contracts.
 
-Once all the tools have been installed, you need to set up Metamask, connecting it to one of the automatic generated accounts of Ganache.
-
-You'll need to connect Metamask to this __local network__, with one of the Ganache accounts. Once Metamask is correctly configured you can continue with the installation.
+Once all the tools have been installed, you need to set up Metamask, connecting it to one of the automatic generated accounts of Ganache. You'll need to connect Metamask to this __local network__, with one of the Ganache accounts. Import your private key from one of of your Ganache accounts. Once Metamask is correctly configured you can continue with the installation.
 
 ## Dependencies and installation
 
