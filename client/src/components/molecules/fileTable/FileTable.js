@@ -17,13 +17,13 @@ import './fileTable.scss'
 // Table columns
 const columns = [
     { id: 'id', label: 'ID', maxWidth: 30, align: "center" },
-    { id: 'title', label: 'FILE NAME', maxWidth: 50, align: "center" },
-    { id: 'content', label: 'CONTENT PREVIEW', maxWidth: 100, align: "center" },
-    { id: 'owner', label: 'OWNER', maxWidth: 20, align: "center" },
-    { id: 'timestamp', label: 'TIMESTAMP', maxWidtth: 100, align: "center" },
-    { id: 'delete', label: 'DELETE', maxWidth: 100, align: "center" },
-    { id: 'update', label: 'UPDATE', maxWidth: 100, align: "center" },
-    { id: 'note', label: 'NOTE', maxWidth: 100, align: "center" }
+    { id: 'title', label: 'File Name', maxWidth: 50, align: "center" },
+    { id: 'content', label: 'Content Preview', maxWidth: 100, align: "center" },
+    { id: 'owner', label: 'Owner', maxWidth: 20, align: "center" },
+    { id: 'timestamp', label: 'Timestamp', maxWidtth: 100, align: "center" },
+    { id: 'delete', label: 'Delete', maxWidth: 100, align: "center" },
+    { id: 'update', label: 'Update', maxWidth: 100, align: "center" },
+    { id: 'note', label: 'Note', maxWidth: 100, align: "center" }
 ];
 
 export default function FileTable(props) {

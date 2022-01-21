@@ -12,9 +12,6 @@ body {
 /* Container table */
 .container {
   height: 100%;
-  display: grid;
-  grid-template: repeat(12, 1fr) / repeat(12, 1fr);
-  gap: 15px;
 }
 
 /* Custom scrollbar */
@@ -36,4 +33,33 @@ div::-webkit-scrollbar-track{
   background: #ffffff!important;
   border-radius: 10px!important;
   box-shadow: inset 7px 10px 12px #f0f0f0!important;
+}
+
+
+.bg-dark {
+  background: rgb(162,95,207) !important;
+  background: linear-gradient(90deg, rgba(162,95,207,1) 0%, rgba(241,54,54,1) 50%, rgba(255,149,0,1) 100%) !important; 
+}
+
+
+.nav-link{
+  color: white !important;
+}
+
+.container, .container-lg, .container-md, .container-sm, .container-xl{
+  max-width: 1440px !important;
+}
+
+.MuiTableHead-root{
+  border-radius: 2rem !important;
+}
+
+.MuiDialog-paper {
+  border-radius: 2rem !important;
+  padding: 1rem;
+}
+
+.MuiDialogTitle-root{
+  border-bottom: 2px solid orange;
+  margin-bottom: 1rem !important;
 }

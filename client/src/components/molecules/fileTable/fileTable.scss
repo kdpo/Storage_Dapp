@@ -2,9 +2,15 @@
     grid-area: 4/ 1 / 13 / 13;
     display: flex;
     flex-direction: column;
+    margin-top: 0.5rem !important;
+    margin-bottom: 3rem !important;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25) !important;
+    border-radius: 1rem !important;
 
     .table-container {
         height: 80%;
+        border-top-right-radius: 1rem  !important;
+        border-top-left-radius: 1rem !important;
     }
 
     .table-pagination {
@@ -13,4 +19,12 @@
         align-items: center;
         justify-content: flex-end;
     }
+}
+
+
+.MuiTableCell-head {
+    color: rgb(81, 6, 156) !important;
+    font-weight: bold !important;
+    text-decoration: unset !important;
+    line-height: 1.1rem !important;
 }

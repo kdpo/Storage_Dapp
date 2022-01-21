@@ -63,19 +63,19 @@ export default function UploadFile(props) {
     return (
         <div>
             <Button variant="outlined" color="primary" className="add-button" onClick={handleClickOpen}>
-                Upload File
+                Upload file
             </Button>
             <Dialog open={open} onClose={handleClose} aria-labelledby="form-dialog-title">
-                <DialogTitle id="form-dialog-title">Add New File</DialogTitle>
+                <DialogTitle id="form-dialog-title">Upload File</DialogTitle>
                 <DialogContent>
-                <DialogContentText>
+                {/* <DialogContentText>
                     Upload a new file
-                </DialogContentText>
+                </DialogContentText> */}
                     <div id="upload-box">
-                      <input type="file" onChange={handleUpload} />
-                      <p>Filename: {file.name}</p>
-                      <p>File type: {file.type}</p>
-                      <p>File size: {file.size} bytes</p>
+                      <input className="mb-2" type="file" onChange={handleUpload} /><br/>
+                      <span>File name: {file.name}</span><br/>
+                      <span>File type: {file.type}</span><br/>
+                      <span>File size: {file.size} bytes</span>
                     </div>
                 </DialogContent>
                 <DialogActions>
