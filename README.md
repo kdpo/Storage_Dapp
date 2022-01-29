@@ -58,7 +58,7 @@ npm run start
 
 ### Contracts folder
 
-This folder contains the smart contracts written in Solidity. The "Crud" file is the smart contract on wich the application is based and contains all the CRUD functions.
+This folder contains the smart contracts written in Solidity.
 
 ### Migrations folder
 
