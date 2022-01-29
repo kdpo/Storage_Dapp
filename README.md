@@ -18,12 +18,12 @@ You can clone the repository on your computer and run the project, but you'll ne
 
 ## Requirements
 
-You need to have the following installed:
+The following should be installed first:
 - [Node.js](https://nodejs.org/en/)
 - [npm](https://www.npmjs.com/)
-- [truffle](https://www.trufflesuite.com/) --> a Solidity framework, made in Node.js, that you can simply install with npm
-- [ganache](https://www.trufflesuite.com/ganache) --> a local Ethereum blockchain that can be used to test smart contracts
-- [metamask](https://metamask.io/) --> a crypto wallet that you'll need to configure to interact with the application
+- [truffle](https://www.trufflesuite.com/) - a Solidity framework, made in Node.js, that you can simply install with npm
+- [ganache](https://www.trufflesuite.com/ganache) - a local Ethereum blockchain that can be used to test smart contracts
+- [metamask](https://metamask.io/) - a crypto wallet that you'll need to configure to interact with the application
 
 Otherwise, you can use [Remix](https://remix.ethereum.org/), an online Solidity IDE, to test smart contracts.
 
@@ -31,26 +31,26 @@ Once all the tools have been installed, you need to set up Metamask, connecting 
 
 ## Dependencies and installation
 
-You need to clone the repository on your computer, than compile and deploy the smart contracts to your local blockchain with this commands:
+Clone the repository on your computer, then compile and deploy the smart contracts to your local blockchain with this commands:
 ```
 truffle compile
 truffle deploy
 ```
 
-Now the smart contracts are deployed, you have to go to the "client" folder and install the npm dependencies:
+After the smart contracts have been deployed, go to the "client" folder and install the npm dependencies:
 
 ```
 cd client
 npm install
 ```
 
-Once installed the dependecies, all is ready and you only need to start the node server with:
+Once installed, start the node server with:
 
 ```
 npm run start
 ```
 
-Let's see the npm dependencies:
+```npm``` dependencies:
 - [@material-ui/core and @material-ui/icons](https://material-ui.com/)
 - [node-sass](https://www.npmjs.com/package/node-sass)
 - [react, react-dom and react-scripts](https://reactjs.org/)
@@ -69,3 +69,7 @@ You can run the migration from the console with this command:
 ```
 truffle migrate
 ```
+
+### Youtube Tutorial
+
+You may watch a [video presentation](https://www.youtube.com/watch?v=sv4zor4wPXc&feature=youtu.be) of the system to learn more about the implementation of the Dapp.
